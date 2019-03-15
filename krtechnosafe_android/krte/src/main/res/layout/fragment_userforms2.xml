@@ -1,0 +1,185 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/vcheck1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="Visual check of shell plate and dished ends for deformation, bulges, notches, pitting."
+
+                android:textSize="20dp" />
+
+            <Switch
+                android:id="@+id/s1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:textOff="@string/toggle_turn_off"
+                android:textOn="@string/toggle_turn_on" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/l2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l1"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vcheck2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="Visual check of weld for smoothness, pronounced surface irregularities,Incomplete grove filling."
+
+                android:textSize="20dp" />
+
+            <Switch
+                android:id="@+id/s2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:textOff="@string/toggle_turn_off"
+                android:textOn="@string/toggle_turn_on" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/l3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l2"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vcheck3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="Visual check for provision of drain valve, pressure gauge, safety valve and stop valve"
+
+                android:textSize="20dp" />
+
+
+            <Switch
+                android:id="@+id/s3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:textOff="@string/toggle_turn_off"
+                android:textOn="@string/toggle_turn_on" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l3"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vcheck4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="Visual check for foundation an opening for bolt tightness and rusting "
+
+                android:textSize="20dp" />
+
+            <Switch
+                android:id="@+id/s4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:textOff="@string/toggle_turn_off"
+                android:textOn="@string/toggle_turn_on" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/l5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l4"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vcheck5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="Ultrasonic thickness test of shell plate and dished ends for determining thickness variation and corrosion."
+
+                android:textSize="20dp" />
+
+
+            <Switch
+                android:id="@+id/s5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:textOff="@string/toggle_turn_off"
+                android:textOn="@string/toggle_turn_on" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/next2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/l5"
+            android:layout_margin="20dp"
+            android:background="@android:color/holo_green_light"
+            android:text="Next"
+            android:textColor="@android:color/white"
+            android:textSize="19dp"
+
+            />
+
+        <Button
+            android:id="@+id/pre1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/l5"
+            android:layout_margin="20dp"
+            android:background="@android:color/holo_green_light"
+            android:text="Previous"
+            android:textColor="@android:color/white"
+            android:textSize="19dp"
+
+            />
+
+
+    </RelativeLayout>
+
+</ScrollView>

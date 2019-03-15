@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "686761027132",
+    "firebase_url": "https://krte-2bdc7.firebaseio.com",
+    "project_id": "krte-2bdc7",
+    "storage_bucket": "krte-2bdc7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686761027132:android:e0d2d6f29a77f662",
+        "android_client_info": {
+          "package_name": "com.elitewaresolutions.krte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "686761027132-g1mden64g6le8nje643psjq5mn99bdm2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcTsQ47qCYb_2JnAvpz-r8Klmf4cEZ9gU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

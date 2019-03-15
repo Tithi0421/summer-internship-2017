@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.HomeFragment">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pager"
+        android:text="Anything you want to know?"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/label"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:text="Select notifications to get your notifications "
+
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/desc"
+        android:layout_centerHorizontal="true"
+        android:text="Notificatons"
+        android:textColor="@android:color/holo_blue_dark" />
+
+
+
+</RelativeLayout>

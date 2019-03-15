@@ -1,0 +1,166 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/form"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:text="REGESTRATION FORM :"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="20dp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/equip1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColorHint="@android:color/darker_gray"
+            android:layout_below="@+id/form"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp">
+
+        <EditText
+            android:id="@+id/equip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Equipment"
+            android:singleLine="true"
+            android:lines="1"
+            android:textSize="20dp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/equipesr1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColorHint="@android:color/darker_gray"
+            android:layout_below="@+id/equip1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp">
+
+            <EditText
+                android:id="@+id/equipsr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Equip. Sr. No :"
+                android:singleLine="true"
+                android:lines="1"
+                android:textSize="20dp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/make1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColorHint="@android:color/darker_gray"
+            android:layout_below="@+id/equipesr1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp">
+
+            <EditText
+                android:id="@+id/make"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Make :"
+                android:singleLine="true"
+                android:lines="1"
+                android:textSize="20dp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/date1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColorHint="@android:color/darker_gray"
+            android:layout_below="@+id/make1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp">
+
+            <EditText
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Date of Mfg:"
+                android:focusable="false"
+                android:clickable="true"
+                android:singleLine="true"
+                android:lines="1"
+                android:textSize="20dp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/cap1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColorHint="@android:color/darker_gray"
+            android:layout_below="@+id/date1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp">
+
+            <EditText
+                android:id="@+id/cap"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Capacity :"
+                android:singleLine="true"
+                android:lines="1"
+                android:textSize="20dp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/loc1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColorHint="@android:color/darker_gray"
+            android:layout_below="@+id/cap1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp">
+
+            <EditText
+                android:id="@+id/loc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Location :"
+                android:singleLine="true"
+                android:lines="1"
+                android:textSize="20dp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/next1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loc1"
+            android:text="Next"
+            android:background="@android:color/holo_green_light"
+            android:layout_margin="20dp"
+            android:layout_alignParentLeft="true"
+            android:textColor="@android:color/white"
+            android:textSize="19dp" />
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

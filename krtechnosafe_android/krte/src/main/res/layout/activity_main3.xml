@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/first"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColorHint="@android:color/white"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="40dp">
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Firstname"
+        android:textColor="@android:color/white"
+        android:lines="1"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/last"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColorHint="@android:color/white"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginRight="40dp">
+
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lastname"
+        android:textColor="@android:color/white"
+        android:lines="1" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/emid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColorHint="@android:color/white"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginRight="40dp">
+
+    <EditText
+        android:id="@+id/eid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:lines="1"
+        android:hint="EmailId"/>
+
+</android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColorHint="@android:color/white"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginRight="40dp">
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColor="@android:color/white"
+        android:lines="1"
+        android:hint="Password (6 or more letters)" />
+
+</android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColorHint="@android:color/white"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginRight="40dp">
+    <EditText
+        android:id="@+id/conf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:textColor="@android:color/white"
+        android:lines="1"
+        android:hint="Confirm Password" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/join"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join Now"
+        android:layout_marginTop="395dp"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>

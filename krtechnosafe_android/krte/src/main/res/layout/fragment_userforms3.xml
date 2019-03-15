@@ -1,0 +1,183 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:id="@+id/l6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vcheck6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="Ultrasonic flaw detection of shell plate and dished ends for locating a laminations and cracks"
+
+                android:textSize="20dp" />
+
+
+            <Switch
+                android:id="@+id/s6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:textOff="@string/toggle_turn_off"
+                android:textOn="@string/toggle_turn_on" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/l7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l6"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vcheck7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="Ultrasonic flaw detection of welds for locating cracks, voids, porosities etc."
+
+                android:textSize="20dp" />
+
+
+            <Switch
+                android:id="@+id/s7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:textOff="@string/toggle_turn_off"
+                android:textOn="@string/toggle_turn_on" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l7"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vcheck8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="Hydraulic test of vessel at 1.5 times the SWL."
+
+                android:textSize="20dp" />
+
+            <Switch
+                android:id="@+id/s8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:textOff="@string/toggle_turn_off"
+                android:textOn="@string/toggle_turn_on" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l8"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vcheck9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="Check range of pressure gauge to be between 1.5 to 2 times the SWP of the vessel "
+
+                android:textSize="20dp" />
+
+            <Switch
+                android:id="@+id/s9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:textOff="@string/toggle_turn_off"
+                android:textOn="@string/toggle_turn_on" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/l10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l9"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/vcheck10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:text="Check capacity of safety valve-size should be adequate to ensure no buildup of pressure without let valve of receiver closed."
+
+                android:textSize="20dp" />
+
+            <Switch
+                android:id="@+id/s10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:textOff="@string/toggle_turn_off"
+                android:textOn="@string/toggle_turn_on" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/l10"
+            android:layout_margin="20dp"
+            android:background="@android:color/holo_green_light"
+            android:text="Submit"
+            android:textColor="@android:color/white"
+            android:textSize="19dp"
+
+            />
+
+        <Button
+            android:id="@+id/pre2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/l10"
+            android:layout_margin="20dp"
+            android:background="@android:color/holo_green_light"
+            android:text="Previous"
+            android:textColor="@android:color/white"
+            android:textSize="19dp"
+
+            />
+
+
+    </RelativeLayout>
+
+</ScrollView>
